@@ -1,3 +1,4 @@
+
 class Jet {
   constructor(color, size){
     this.color = color;
@@ -5,6 +6,10 @@ class Jet {
   }
   fly () {
     console.log('whoosh!');
+  }
+  takeOff () {
+    console.log('lift off!');
+
   }
 }
   
